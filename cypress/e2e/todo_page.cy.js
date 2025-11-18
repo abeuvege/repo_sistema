@@ -1,4 +1,5 @@
 describe('pruebas de la pagina TODO', () => {
+
   beforeEach(() => {
     cy.visit('https://todomvc.com/examples/react/dist/')
   })
@@ -43,5 +44,3 @@ describe('pruebas de la pagina TODO', () => {
   })
 
 })
-
-
